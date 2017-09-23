@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="vmParameters" value="-XX:MaxPermSize=384M -Dhttp.proxyHost=loalhost -Dhttp.proxyPort=1080 -Dhttps.proxyHost=loalhost -Dhttps.proxyPort=1080" />
+  </component>
+</project>
