@@ -8,19 +8,37 @@ import lew.bing.activemq.Producer;
  */
 public class ConsumerTest {
 
-    public static void main(String[] args) {
-        new Thread(new ConsumerRun()).start();
-        new Thread(new ConsumerRun()).start();
-        new Thread(new ConsumerRun()).start();
-        new Thread(new ConsumerRun()).start();
-        new Thread(new ConsumerRun()).start();
+    public static void main(String[] args) throws InterruptedException {
+
+        Consumer consumer1 = new Consumer();
+        Consumer consumer2 = new Consumer();
+        Consumer consumer3 = new Consumer();
+
+        Thread thread = new Thread(new ConsumerRun(consumer1),"thread1");
+        thread.start();
+        new Thread(new ConsumerRun(consumer2)).start();
+        new Thread(new ConsumerRun(consumer3)).start();
+
+        Thread.sleep(30000);
+        System.out.println("客户端1关闭");
+        consumer1.close(); // 会出现bug
+        thread.interrupt();
+        Thread.sleep(1000);
+        System.out.println("客户端1重启");
+        new Thread(new ConsumerRun(consumer1),"thread1").start();
+
     }
 
     public static class ConsumerRun implements Runnable {
 
+        private Consumer consumer;
+
+        public ConsumerRun(Consumer consumer) {
+            this.consumer = consumer;
+        }
+
         @Override
         public void run() {
-            Consumer consumer = new Consumer();
             consumer.init();
             consumer.getMessage("test");
         }

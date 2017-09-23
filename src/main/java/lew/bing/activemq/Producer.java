@@ -48,19 +48,32 @@ public class Producer {
                 producer = threadLocal.get();
             } else {
                 producer = session.createProducer(destination);
+                producer.setDeliveryMode(DeliveryMode.NON_PERSISTENT);
                 threadLocal.set(producer);
             }
+
+            int a = (int)(Math.random() * 100);
+
             while (true) {
                 Thread.sleep(1000);
-                int num = count.getAndIncrement();
-                // 发送TextMessage
-                String msg = Thread.currentThread().getName()+
-                        "producer:我是大帅哥，我现在正在生产东西！,count:"+num;
-                TextMessage message = session.createTextMessage(msg);
-                System.out.println(msg);
-                producer.send(message);
-                // 提交session
-                session.commit();
+                try {
+                    int num = count.getAndIncrement();
+                    // 发送TextMessage
+                    String msg = Thread.currentThread().getName()+
+                            "producer:我是大帅哥，我现在正在生产东西！,count:"+num;
+                    TextMessage message = session.createTextMessage(msg);
+                    System.out.println(msg);
+                    producer.send(message);
+                    // 提交session
+                    if (count.get() == a) {
+                        throw new RuntimeException(Thread.currentThread().getName() + ":有错误啦");
+                    }
+                    session.commit();
+                } catch (RuntimeException e) {
+                    session.rollback();
+                    e.printStackTrace();
+                }
+
             }
         } catch (JMSException | InterruptedException e) {
             e.printStackTrace();
