@@ -61,5 +61,3 @@ fabric.properties
 
 .gitignore
 .idea/inspectionProfiles/
-src/main/resources/
-src/test/resources/
