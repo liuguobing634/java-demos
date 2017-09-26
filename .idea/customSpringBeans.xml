@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CustomBeanRegistry">
+    <option name="map">
+      <map>
+        <entry key="&lt;dubbo:service xmlns:dubbo=&quot;http://code.alibabatech.com/schema/dubbo&quot; interface=&quot;lew.bing.dubbo.common.DemoService&quot; ref=&quot;demoService&quot; timeout=&quot;0&quot; async=&quot;false&quot; version=&quot;0.0.0&quot; delay=&quot;0&quot; /&gt;">
+          <value>
+            <list>
+              <CustomBeanInfo>
+                <option name="beanName" value="lew.bing.dubbo.common.DemoService" />
+                <option name="beanClassName" value="com.alibaba.dubbo.config.spring.ServiceBean" />
+                <option name="idAttribute" value="interface" />
+              </CustomBeanInfo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="policies">
+      <map>
+        <entry>
+          <key>
+            <MyQName>
+              <option name="namespace" value="http://code.alibabatech.com/schema/dubbo" />
+              <option name="localName" value="service" />
+            </MyQName>
+          </key>
+          <value>
+            <CustomBeanInfo>
+              <option name="beanClassName" value="com.alibaba.dubbo.config.spring.ServiceBean" />
+              <option name="idAttribute" value="interface" />
+            </CustomBeanInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
