@@ -3,6 +3,18 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-cunsumer.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-cunsumer.iml" group="java-demos-cunsumer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-cunsumer/java-demos-cunsumer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-cunsumer/java-demos-cunsumer_main.iml" group="java-demos-cunsumer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-cunsumer/java-demos-cunsumer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-cunsumer/java-demos-cunsumer_test.iml" group="java-demos-cunsumer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-povider.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-povider.iml" group="java-demos-povider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-povider/java-demos-povider_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-povider/java-demos-povider_main.iml" group="java-demos-povider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-povider/java-demos-povider_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-povider/java-demos-povider_test.iml" group="java-demos-povider" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-service.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-service.iml" group="java-demos-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-service/java-demos-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-service/java-demos-service_main.iml" group="java-demos-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-service/java-demos-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-service/java-demos-service_test.iml" group="java-demos-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-spring.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-spring.iml" group="java-demos-spring" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-spring/java-demos-spring_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-spring/java-demos-spring_main.iml" group="java-demos-spring" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-spring/java-demos-spring_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-spring/java-demos-spring_test.iml" group="java-demos-spring" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos_main.iml" group="java-demos" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos_test.iml" group="java-demos" />
     </modules>

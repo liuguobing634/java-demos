@@ -1,2 +1,6 @@
 rootProject.name = 'java-demos'
+include 'java-demos-spring'
+include 'java-demos-service'
+include 'java-demos-povider'
+include 'java-demos-cunsumer'
 

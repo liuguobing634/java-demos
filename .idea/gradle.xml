@@ -9,6 +9,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/java-demos-cunsumer" />
+            <option value="$PROJECT_DIR$/java-demos-povider" />
+            <option value="$PROJECT_DIR$/java-demos-service" />
+            <option value="$PROJECT_DIR$/java-demos-spring" />
           </set>
         </option>
       </GradleProjectSettings>

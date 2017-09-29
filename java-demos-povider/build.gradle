@@ -1,0 +1,38 @@
+group 'lew.bing'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper
+    compile (group: 'org.apache.zookeeper', name: 'zookeeper', version: '3.4.10') {
+        exclude(group:"org.slf4j")
+    }
+
+    // https://mvnrepository.com/artifact/com.101tec/zkclient
+    compile (group: 'com.101tec', name: 'zkclient', version: '0.10') {
+        exclude(group:"org.slf4j")
+    }
+    // https://mvnrepository.com/artifact/com.alibaba/dubbo
+    compile("com.alibaba:dubbo:2.5.5") {
+        exclude(group:"org.springframework")
+        exclude(group:"org.slf4j")
+    }
+    compile("org.springframework.boot:spring-boot-starter-data-jpa:1.5.7.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-test:1.5.7.RELEASE")
+
+
+
+    compile "mysql:mysql-connector-java:6.0.6"
+
+    compile project(":java-demos-service")
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

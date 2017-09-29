@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/test
+    username: root
+    password: 634335272
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true

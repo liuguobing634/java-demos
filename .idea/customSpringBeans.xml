@@ -3,6 +3,17 @@
   <component name="CustomBeanRegistry">
     <option name="map">
       <map>
+        <entry key="&lt;dubbo:reference xmlns:dubbo=&quot;http://code.alibabatech.com/schema/dubbo&quot; interface=&quot;lew.bing.service.UserService&quot; id=&quot;userService&quot; timeout=&quot;0&quot; async=&quot;false&quot; version=&quot;0.0.0&quot; /&gt;">
+          <value>
+            <list>
+              <CustomBeanInfo>
+                <option name="beanName" value="userService" />
+                <option name="beanClassName" value="com.alibaba.dubbo.config.spring.ReferenceBean" />
+                <option name="idAttribute" value="id" />
+              </CustomBeanInfo>
+            </list>
+          </value>
+        </entry>
         <entry key="&lt;dubbo:service xmlns:dubbo=&quot;http://code.alibabatech.com/schema/dubbo&quot; interface=&quot;lew.bing.dubbo.common.DemoService&quot; ref=&quot;demoService&quot; timeout=&quot;0&quot; async=&quot;false&quot; version=&quot;0.0.0&quot; delay=&quot;0&quot; /&gt;">
           <value>
             <list>
@@ -18,6 +29,20 @@
     </option>
     <option name="policies">
       <map>
+        <entry>
+          <key>
+            <MyQName>
+              <option name="namespace" value="http://code.alibabatech.com/schema/dubbo" />
+              <option name="localName" value="reference" />
+            </MyQName>
+          </key>
+          <value>
+            <CustomBeanInfo>
+              <option name="beanClassName" value="com.alibaba.dubbo.config.spring.ReferenceBean" />
+              <option name="idAttribute" value="id" />
+            </CustomBeanInfo>
+          </value>
+        </entry>
         <entry>
           <key>
             <MyQName>
