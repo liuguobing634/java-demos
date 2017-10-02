@@ -25,6 +25,9 @@ dependencies {
         exclude(group:"org.slf4j")
     }
     compile("org.springframework.boot:spring-boot-starter-web:1.5.7.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-actuator:1.5.7.RELEASE")
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-thymeleaf
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', version: '1.5.7.RELEASE'
     compile (project(":java-demos-service")) {
         exclude(group:"org.hibernate")
     }

@@ -1,0 +1,8 @@
+server:
+  port: 9898
+endpoints:
+  auditevents:
+    sensitive: false
+management:
+  security:
+    enabled: false
