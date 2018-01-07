@@ -1,5 +1,6 @@
 package lew.bing;
 
+import com.alibaba.dubbo.config.spring.schema.DubboBeanDefinitionParser;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;

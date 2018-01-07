@@ -4,6 +4,12 @@
     <bytecodeTargetLevel>
       <module name="java-demos-cunsumer_main" target="1.8" />
       <module name="java-demos-cunsumer_test" target="1.8" />
+      <module name="java-demos-ehcache_main" target="1.8" />
+      <module name="java-demos-ehcache_test" target="1.8" />
+      <module name="java-demos-hessian_main" target="1.8" />
+      <module name="java-demos-hessian_test" target="1.8" />
+      <module name="java-demos-kafka_main" target="1.8" />
+      <module name="java-demos-kafka_test" target="1.8" />
       <module name="java-demos-povider_main" target="1.8" />
       <module name="java-demos-povider_test" target="1.8" />
       <module name="java-demos-service_main" target="1.8" />
@@ -12,6 +18,10 @@
       <module name="java-demos-spring_test" target="1.8" />
       <module name="java-demos_main" target="1.8" />
       <module name="java-demos_test" target="1.8" />
+      <module name="jave-demos-guava_main" target="1.8" />
+      <module name="jave-demos-guava_test" target="1.8" />
+      <module name="lew.bing.register_main" target="1.8" />
+      <module name="lew.bing.register_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

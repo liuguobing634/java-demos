@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsl="http://www.w3.org/2001/XMLSchema-instance"
+         xsl:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+            http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1"
+         metadata-complete="false">
+
+    <servlet>
+        <servlet-name>Hessian</servlet-name>
+        <servlet-class>com.caucho.hessian.server.HessianServlet</servlet-class>
+        <init-param>
+            <param-name>home-class</param-name>
+            <param-value>lew.bing.hessian.server.BasicServiceImpl</param-value>
+        </init-param>
+        <init-param>
+            <param-name>home-api</param-name>
+            <param-value>lew.bing.hessian.service.BasicService</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Hessian</servlet-name>
+        <url-pattern>/hessian</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Hessian2</servlet-name>
+        <servlet-class>com.caucho.hessian.server.HessianServlet</servlet-class>
+        <init-param>
+            <param-name>home-class</param-name>
+            <param-value>lew.bing.hessian.server.BasicServiceImpl</param-value>
+        </init-param>
+        <init-param>
+            <param-name>home-api</param-name>
+            <param-value>lew.bing.hessian.service.BasicService</param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Hessian2</servlet-name>
+        <url-pattern>/hessian2</url-pattern>
+    </servlet-mapping>
+</web-app>

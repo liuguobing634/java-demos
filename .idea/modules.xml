@@ -6,6 +6,15 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-cunsumer.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-cunsumer.iml" group="java-demos-cunsumer" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-cunsumer/java-demos-cunsumer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-cunsumer/java-demos-cunsumer_main.iml" group="java-demos-cunsumer" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-cunsumer/java-demos-cunsumer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-cunsumer/java-demos-cunsumer_test.iml" group="java-demos-cunsumer" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-ehcache.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-ehcache.iml" group="java-demos-ehcache" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-ehcache/java-demos-ehcache_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-ehcache/java-demos-ehcache_main.iml" group="java-demos-ehcache" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-ehcache/java-demos-ehcache_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-ehcache/java-demos-ehcache_test.iml" group="java-demos-ehcache" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-hessian.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-hessian.iml" group="java-demos-hessian" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-hessian/java-demos-hessian_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-hessian/java-demos-hessian_main.iml" group="java-demos-hessian" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-hessian/java-demos-hessian_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-hessian/java-demos-hessian_test.iml" group="java-demos-hessian" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-kafka.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-kafka.iml" group="java-demos-kafka" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-kafka/java-demos-kafka_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-kafka/java-demos-kafka_main.iml" group="java-demos-kafka" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-kafka/java-demos-kafka_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-kafka/java-demos-kafka_test.iml" group="java-demos-kafka" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-povider.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-povider.iml" group="java-demos-povider" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-povider/java-demos-povider_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-povider/java-demos-povider_main.iml" group="java-demos-povider" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-povider/java-demos-povider_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-povider/java-demos-povider_test.iml" group="java-demos-povider" />
@@ -17,6 +26,12 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos-spring/java-demos-spring_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos-spring/java-demos-spring_test.iml" group="java-demos-spring" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos_main.iml" group="java-demos" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-demos_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-demos_test.iml" group="java-demos" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jave-demos-guava.iml" filepath="$PROJECT_DIR$/.idea/modules/jave-demos-guava.iml" group="jave-demos-guava" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jave-demos-guava/jave-demos-guava_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jave-demos-guava/jave-demos-guava_main.iml" group="jave-demos-guava" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jave-demos-guava/jave-demos-guava_test.iml" filepath="$PROJECT_DIR$/.idea/modules/jave-demos-guava/jave-demos-guava_test.iml" group="jave-demos-guava" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lew.bing.register.iml" filepath="$PROJECT_DIR$/.idea/modules/lew.bing.register.iml" group="lew.bing.register" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lew.bing.register/lew.bing.register_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lew.bing.register/lew.bing.register_main.iml" group="lew.bing.register" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lew.bing.register/lew.bing.register_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lew.bing.register/lew.bing.register_test.iml" group="lew.bing.register" />
     </modules>
   </component>
 </project>

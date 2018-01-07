@@ -13,6 +13,8 @@
 
     <dubbo:annotation/>
 
+    <!--<dubbo:service interface="lew.bing.service.UserService" mock="lew.bing.service.local.impl.UserServiceImpl"/>-->
+
     <!--<dubbo:reference interface="lew.bing.service.UserService" id="userService"/>-->
 
 </beans>

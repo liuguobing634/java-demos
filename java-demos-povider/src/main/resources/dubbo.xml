@@ -18,6 +18,6 @@
 
 
     <!-- 暴露给外面的接口 -->
-    <dubbo:service interface="lew.bing.service.UserService" ref="userService"/>
+    <dubbo:service interface="lew.bing.service.UserService" ref="userService" executes="3"/>
 
 </beans>

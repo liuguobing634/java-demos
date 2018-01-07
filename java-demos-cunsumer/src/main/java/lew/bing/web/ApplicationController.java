@@ -3,6 +3,7 @@ package lew.bing.web;
 import com.alibaba.dubbo.config.annotation.Reference;
 import lew.bing.domain.User;
 import lew.bing.service.UserService;
+import lew.bing.service.local.impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -16,7 +17,7 @@ import javax.servlet.http.HttpSession;
 @Controller
 public class ApplicationController {
 
-    @Reference
+    @Reference(mock = "lew.bing.service.local.impl.UserServiceImpl")
     private UserService userService;
 
     @ResponseBody
